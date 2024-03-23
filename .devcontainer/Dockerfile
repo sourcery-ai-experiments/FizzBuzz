@@ -34,7 +34,8 @@ RUN dnf -y install \
     python3-devel \
     rustup \
 && rustup-init -v -y \
-&& rustup component add rust-src \
+&& rustup component add rust-src rustfmt \
+&& cargo install cargo-expand \
 && chmod a+w -R $CARGO_HOME
 
 # ---
