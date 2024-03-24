@@ -1,8 +1,7 @@
 #[macro_use]
 extern crate pyo3testing;
-use pyo3testing::pyo3test;
 
-#[pyo3test(fizzbuzzo3, fizzbuzz)]
+#[pyo3test]
 fn test_fizzbuzz() {
     let result: PyResult<String> = match fizzbuzz.call1((1i32,)) {
         Ok(r) => r.extract(),
