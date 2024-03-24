@@ -1,5 +1,6 @@
 #[macro_use]
-extern crate pyo3test;
+extern crate pyo3testing;
+use pyo3testing::pyo3test;
 
 #[pyo3test(fizzbuzzo3, fizzbuzz)]
 fn test_fizzbuzz() {

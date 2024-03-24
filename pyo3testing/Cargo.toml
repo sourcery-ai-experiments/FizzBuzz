@@ -1,0 +1,16 @@
+[package]
+name = "pyo3testing"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+# name = "pyo3testing"
+# path = "src/lib.rs"
+# crate-type = ["proc-macro"]
+
+[dependencies]
+quote = "1.0"
+
+[dev-dependencies]
+macrotest = "1.0.9"

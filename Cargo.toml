@@ -6,7 +6,7 @@ members = [
 ]
 
 exclude = [
-    "pyo3test"
+    "pyo3testing"
 ]
 
 resolver = "2"
