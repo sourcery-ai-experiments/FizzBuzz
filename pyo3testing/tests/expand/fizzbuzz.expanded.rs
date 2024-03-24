@@ -1,3 +1,6 @@
+#[macro_use]
+extern crate pyo3testing;
+
 #[test]
 fn test_fizzbuzz() {
     pyo3::append_to_inittab!(py_fizzbuzzo3);
